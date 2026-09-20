@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhakti Kirtan Radhe Radhe 24x7</title>
+<meta name="description" content="Bhakti Kirtan Radhe Radhe 24x7 - Devotional music, bhajans and kirtan. Listen live.">
+<style>
+:root{
+  --bg:#090b12;
+  --panel:#121622;
+  --panel2:#181d2b;
+  --text:#fff;
+  --muted:#aeb6c8;
+  --accent:#ffb000;
+  --accent2:#ff7a00;
+  --border:rgba(255,255,255,.09);
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:var(--text);
+  background:
+    radial-gradient(circle at 50% -10%,rgba(255,176,0,.18),transparent 38%),
+    linear-gradient(180deg,#0b0e16,#070910);
+  min-height:100vh;
+}
+.container{max-width:1050px;margin:auto;padding:0 22px}
+header{
+  padding:30px 0 22px;
+  border-bottom:1px solid var(--border);
+}
+.brand{display:flex;align-items:center;gap:16px}
+.logo{
+  width:64px;height:64px;border-radius:18px;
+  display:grid;place-items:center;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  color:#15110a;font-weight:900;font-size:27px;
+  box-shadow:0 10px 35px rgba(255,145,0,.25);
+}
+h1{margin:0;font-size:28px;line-height:1.1}
+.tag{margin-top:6px;color:var(--muted);font-size:14px}
+.live{
+  margin-left:auto;
+  padding:8px 12px;border:1px solid rgba(255,176,0,.35);
+  border-radius:999px;color:#ffd36a;font-size:12px;font-weight:bold;
+}
+main{padding:42px 0}
+.hero{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:24px;
+}
+.card{
+  background:linear-gradient(145deg,rgba(24,29,43,.96),rgba(14,18,28,.96));
+  border:1px solid var(--border);border-radius:24px;
+  box-shadow:0 20px 60px rgba(0,0,0,.28);
+}
+.now{padding:30px}
+.kicker{color:#ffbd32;font-size:12px;letter-spacing:2px;font-weight:bold}
+.now h2{font-size:32px;margin:10px 0 8px}
+.now p{color:var(--muted);line-height:1.6}
+.art{
+  min-height:330px;border-radius:22px;
+  display:grid;place-items:center;text-align:center;
+  background:
+    radial-gradient(circle at 50% 35%,rgba(255,190,55,.32),transparent 25%),
+    linear-gradient(145deg,#3a1c0c,#17111a 60%,#0e1018);
+  border:1px solid rgba(255,255,255,.07);
+}
+.art .om{font-size:86px;color:#ffd36a;text-shadow:0 8px 35px rgba(255,176,0,.25)}
+.art small{display:block;color:#d6d9e2;margin-top:8px}
+.player{margin-top:24px;padding:22px}
+audio{width:100%;height:46px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}
+.btn{
+  display:inline-block;text-decoration:none;color:#15110a;
+  background:linear-gradient(135deg,#ffc44d,#ff8a00);
+  padding:12px 18px;border-radius:12px;font-weight:bold;
+}
+.btn.secondary{color:#fff;background:#242b3d;border:1px solid var(--border)}
+.section{margin-top:26px;padding:24px}
+.section h3{margin:0 0 16px}
+.note{color:var(--muted);line-height:1.6;font-size:14px}
+footer{
+  padding:28px 0 40px;text-align:center;color:#7f8798;font-size:13px;
+}
+@media(max-width:760px){
+  .hero{grid-template-columns:1fr}
+  .live{display:none}
+  h1{font-size:23px}
+  .now h2{font-size:27px}
+  .art{min-height:260px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container brand">
+    <div class="logo">ॐ</div>
+    <div>
+      <h1>Bhakti Kirtan Radhe Radhe</h1>
+      <div class="tag">24x7 Bhajans • Kirtan • Devotional Music</div>
+    </div>
+    <div class="live">● LIVE RADIO</div>
+  </div>
+</header>
+
+<main class="container">
+  <div class="hero">
+    <section class="card now">
+      <div class="kicker">NOW PLAYING</div>
+      <h2>Bhakti Kirtan Radhe Radhe 24x7</h2>
+      <p>Welcome to our devotional radio. Enjoy bhajans, kirtan and spiritual music throughout the day.</p>
+
+      <div class="player">
+        <audio controls preload="none">
+          <source src="https://eu8.fastcast4u.com/stream/narendersm/stream" type="audio/mpeg">
+          Your browser does not support the audio player.
+        </audio>
+        <div class="buttons">
+          <a class="btn" href="https://eu8.fastcast4u.com/start/narendersm" target="_blank" rel="noopener">Open Full Radio Player</a>
+          <a class="btn secondary" href="https://eu8.fastcast4u.com/tunein/narendersm.pls">Open Stream</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="art">
+      <div>
+        <div class="om">ॐ</div>
+        <strong>Bhakti Kirtan</strong>
+        <small>Radhe Radhe • 24x7</small>
+      </div>
+    </section>
+  </div>
+
+  <section class="card section">
+    <h3>About the Station</h3>
+    <div class="note">
+      Bhakti Kirtan Radhe Radhe brings devotional bhajans, kirtan and spiritual music to listeners 24 hours a day.
+      Press play above and enjoy the live stream.
+    </div>
+  </section>
+
+  <section class="card section">
+    <h3>Listen on Mobile & Computer</h3>
+    <div class="note">
+      This page works on phones, tablets and computers. For the most compatible listening experience, use the
+      Play button above or open the full radio player.
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 Bhakti Kirtan Radhe Radhe 24x7
+</footer>
+</body>
+</html>
